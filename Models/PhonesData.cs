@@ -7,7 +7,7 @@ namespace WebApplication3.Models
 {
     public class PhonesData
     {
-        public Guid Id { get; set; } = Guid.Empty;
+        public Guid Id { get; set; } = Guid.Empty; // Уникальный ID
         public string Manufacturer { get; set; } // Производитель
         public string Model { get; set; } // Модель
         public string ModelNum { get; set; } // Наименование модел
