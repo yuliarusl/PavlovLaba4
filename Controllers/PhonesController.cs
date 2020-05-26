@@ -11,6 +11,11 @@ namespace WebApplication3.Controllers
     public class PhonesController : ControllerBase
     {
         private static IStorage<PhonesData> _memCache = new MemCache();
+        public PhonesController(IStorage<PhonesData> memCache)
+        {
+            _memCache = memCache;
+        }
+
 
         [HttpGet]
         public ActionResult<IEnumerable<PhonesData>> Get()
