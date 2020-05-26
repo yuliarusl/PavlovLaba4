@@ -8,7 +8,7 @@ namespace WebApplication3.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class LabController : ControllerBase
+    public class PhonesController : ControllerBase
     {
         private static IStorage<PhonesData> _memCache = new MemCache();
 
