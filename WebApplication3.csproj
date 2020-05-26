@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>0.0.2-rc.1</Version>
+    <Version>0.0.3-rc.1</Version>
     <Authors>Y.Asharafylina</Authors>
     <Company>Asharafulina</Company>
     <Product>Lab 3</Product>
