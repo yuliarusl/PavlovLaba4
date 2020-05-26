@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>0.0.3-rc.1</Version>
+    <Version>0.0.2-rc.1</Version>
     <Authors>Y.Asharafylina</Authors>
-    <Company>NSTU_LABS</Company>
-    <Product>Lab 2</Product>
+    <Company>Asharafulina</Company>
+    <Product>Lab 3</Product>
     <PackageId>PhonesApplication</PackageId>
     <FileVersion>0.0.1</FileVersion>
   </PropertyGroup>
