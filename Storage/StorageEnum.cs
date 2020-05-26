@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace WebApplication3.Storage
 {
@@ -14,9 +13,9 @@ namespace WebApplication3.Storage
 
     public static class StorageEnumExtensions
     {
-        public static StorageEnum ToStorageEnum(this string value)
+        public static StorageEnum ToStorageEnum(this string value) //
         {
-            switch (value)
+            switch (value) 
             {
                 case var s when s.ToLowerInvariant() == "memcache"
                                 || s.ToLowerInvariant() == "cache"
